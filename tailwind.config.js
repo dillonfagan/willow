@@ -15,4 +15,11 @@ module.exports = {
         ],
         enabled: production // disable purge in dev
     },
+    theme: {
+        extend: {
+            colors: {
+                primary: "#fdd835"
+            }
+        }
+    }
 };

@@ -6,15 +6,23 @@
 	import Row from './components/Row.svelte';
 	import Card from './components/Card.svelte';
 	import CardTitle from './components/CardTitle.svelte';
+	import CardImage from './components/CardImage.svelte';
 </script>
 
 <Layout>
 	<Container>
 		<Column>
 			<Card>
-				<CardTitle>Title</CardTitle>
+				<CardImage src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
+				<Container>
+					<CardTitle>Title</CardTitle>
+				</Container>
 			</Card>
 			<Row>
+				<Button>Click me</Button>
+				<Button primary>Cancel</Button>
+			</Row>
+			<Row right>
 				<Button>Click me</Button>
 				<Button primary>Cancel</Button>
 			</Row>
