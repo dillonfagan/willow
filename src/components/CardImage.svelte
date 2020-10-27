@@ -3,4 +3,4 @@
     export let alt = "";
 </script>
 
-<img src={src} alt={alt} class="w-full" />
+<img src={src} alt={alt} class="w-full object-cover" />
