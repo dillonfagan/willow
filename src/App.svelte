@@ -26,6 +26,28 @@
 				<Button>Click me</Button>
 				<Button primary>Cancel</Button>
 			</Row>
+			<Row>
+				<Card small>
+					<Container>
+						<CardTitle>Hammer</CardTitle>
+					</Container>
+				</Card>
+				<Card small>
+					<Container>
+						<CardTitle>Vacuum Cleaner</CardTitle>
+					</Container>
+				</Card>
+				<Card small>
+					<Container>
+						<CardTitle>Projector</CardTitle>
+					</Container>
+				</Card>
+				<Card small>
+					<Container>
+						<CardTitle>Paella Pan</CardTitle>
+					</Container>
+				</Card>
+			</Row>
 		</Column>
 	</Container>
 </Layout>
