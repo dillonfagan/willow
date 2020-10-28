@@ -7,6 +7,7 @@
 	import Card from './components/Card.svelte';
 	import CardTitle from './components/CardTitle.svelte';
 	import CardImage from './components/CardImage.svelte';
+	import Grid from './components/Grid.svelte';
 </script>
 
 <Layout>
@@ -26,28 +27,28 @@
 				<Button>Click me</Button>
 				<Button primary>Cancel</Button>
 			</Row>
-			<Row>
-				<Card small>
+			<Grid>
+				<Card>
 					<Container>
 						<CardTitle>Hammer</CardTitle>
 					</Container>
 				</Card>
-				<Card small>
+				<Card>
 					<Container>
 						<CardTitle>Vacuum Cleaner</CardTitle>
 					</Container>
 				</Card>
-				<Card small>
+				<Card>
 					<Container>
 						<CardTitle>Projector</CardTitle>
 					</Container>
 				</Card>
-				<Card small>
+				<Card>
 					<Container>
 						<CardTitle>Paella Pan</CardTitle>
 					</Container>
 				</Card>
-			</Row>
+			</Grid>
 		</Column>
 	</Container>
 </Layout>
