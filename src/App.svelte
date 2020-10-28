@@ -5,7 +5,7 @@
 	import Column from './components/Column.svelte';
 	import Row from './components/Row.svelte';
 	import Card from './components/Card.svelte';
-	import CardTitle from './components/CardTitle.svelte';
+	import Title from './components/Title.svelte';
 	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
 </script>
@@ -16,7 +16,7 @@
 			<Card>
 				<Image src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
 				<Container>
-					<CardTitle>Title</CardTitle>
+					<Title>Title</Title>
 				</Container>
 			</Card>
 			<Row>
@@ -30,22 +30,22 @@
 			<Grid>
 				<Card>
 					<Container>
-						<CardTitle>Hammer</CardTitle>
+						<Title>Hammer</Title>
 					</Container>
 				</Card>
 				<Card>
 					<Container>
-						<CardTitle>Vacuum Cleaner</CardTitle>
+						<Title>Vacuum Cleaner</Title>
 					</Container>
 				</Card>
 				<Card>
 					<Container>
-						<CardTitle>Projector</CardTitle>
+						<Title>Projector</Title>
 					</Container>
 				</Card>
 				<Card>
 					<Container>
-						<CardTitle>Paella Pan</CardTitle>
+						<Title>Paella Pan</Title>
 					</Container>
 				</Card>
 			</Grid>
