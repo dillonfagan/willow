@@ -10,6 +10,7 @@
 	import Text from './components/Text.svelte';
 	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
+	import Spacer from './components/Spacer.svelte';
 </script>
 
 <Layout>
@@ -31,6 +32,9 @@
 				<Button>Click me</Button>
 				<Button primary>Cancel</Button>
 			</Row>
+			<Spacer />
+			<Text center large italic>The best things in life are Things.</Text>
+			<Spacer />
 			<Grid>
 				<Card>
 					<Container>
