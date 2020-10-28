@@ -7,6 +7,7 @@
 	import Card from './components/Card.svelte';
 	import Title from './components/Title.svelte';
 	import Subtitle from './components/Subtitle.svelte';
+	import Text from './components/Text.svelte';
 	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
 </script>
@@ -19,6 +20,7 @@
 				<Container>
 					<Title>Title</Title>
 					<Subtitle>This is a subtitle.</Subtitle>
+					<Text>This is a text component, which is commonly used for paragraph text, like this.</Text>
 				</Container>
 			</Card>
 			<Row>
