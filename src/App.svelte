@@ -35,6 +35,7 @@
 				<Card>
 					<Container>
 						<Title>Hammer</Title>
+						<Text subtle>A tool for hitting things.</Text>
 					</Container>
 				</Card>
 				<Card>
@@ -50,6 +51,7 @@
 				<Card>
 					<Container>
 						<Title>Paella Pan</Title>
+						<Text subtle>For making some awesome Spanish food.</Text>
 					</Container>
 				</Card>
 			</Grid>
