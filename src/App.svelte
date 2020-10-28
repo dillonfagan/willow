@@ -42,7 +42,7 @@
 						<Text subtle>A tool for hitting things.</Text>
 					</Container>
 				</Card>
-				<Card>
+				<Card featured>
 					<Container>
 						<Title>Vacuum Cleaner</Title>
 					</Container>
