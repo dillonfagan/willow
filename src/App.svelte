@@ -6,7 +6,7 @@
 	import Row from './components/Row.svelte';
 	import Card from './components/Card.svelte';
 	import CardTitle from './components/CardTitle.svelte';
-	import CardImage from './components/CardImage.svelte';
+	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
 </script>
 
@@ -14,7 +14,7 @@
 	<Container>
 		<Column>
 			<Card>
-				<CardImage src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
+				<Image src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
 				<Container>
 					<CardTitle>Title</CardTitle>
 				</Container>
