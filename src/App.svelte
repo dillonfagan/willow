@@ -6,6 +6,7 @@
 	import Row from './components/Row.svelte';
 	import Card from './components/Card.svelte';
 	import Title from './components/Title.svelte';
+	import Subtitle from './components/Subtitle.svelte';
 	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
 </script>
@@ -17,6 +18,7 @@
 				<Image src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
 				<Container>
 					<Title>Title</Title>
+					<Subtitle>This is a subtitle.</Subtitle>
 				</Container>
 			</Card>
 			<Row>
