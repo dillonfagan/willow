@@ -10,7 +10,7 @@
     class:italic 
     class:large 
     class:subtle 
-    class="text-md text-gray-800"
+    class="text-md text-gray-800 dark:text-gray-300"
 >
     <slot />
 </div>
