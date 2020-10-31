@@ -11,11 +11,14 @@
 	import Image from './components/Image.svelte';
 	import Grid from './components/Grid.svelte';
 	import Spacer from './components/Spacer.svelte';
+	import PageTitle from './components/PageTitle.svelte';
 </script>
 
 <Layout>
 	<Container>
 		<Column>
+			<PageTitle>Willow</PageTitle>
+			<Subtitle>An opinionated Svelte component library.</Subtitle>
 			<Card>
 				<Image src="https://images.placeholders.dev/?width=400&height=300&text=Made%20with%20placeholders.dev&bgColor=%23f7f6f6&textColor=%236d6e71" alt="card image" />
 				<Container>
